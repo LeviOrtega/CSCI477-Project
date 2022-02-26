@@ -1,7 +1,8 @@
 {
   "resources": [
     {"id":{"name":"spr_test","path":"sprites/spr_test/spr_test.yy",},"order":0,},
-    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
+    {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"order":0,},
+    {"id":{"name":"rm_1","path":"rooms/rm_1/rm_1.yy",},"order":0,},
   ],
   "Options": [
     {"name":"macOS","path":"options/mac/options_mac.yy",},
@@ -15,7 +16,7 @@
     "children": [],
   },
   "RoomOrderNodes": [
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"rm_1","path":"rooms/rm_1/rm_1.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
