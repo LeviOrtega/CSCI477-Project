@@ -61,8 +61,8 @@
                           ],"resourceVersion":"1.0","name":"x","tags":[],"resourceType":"GMAnimCurveChannel",},
                         {"colour":4281083598,"visible":true,"points":[
                             {"th0":1.0,"th1":-1.0,"tv0":0.0,"tv1":0.0,"x":0.0,"y":0.0,},
-                            {"th0":1.0,"th1":-1.0,"tv0":0.0,"tv1":0.0,"x":0.19148165,"y":-46.93646,},
-                            {"th0":1.0,"th1":-1.0,"tv0":0.0,"tv1":0.0,"x":1.0,"y":-110.999527,},
+                            {"th0":1.0,"th1":-1.0,"tv0":0.0,"tv1":0.0,"x":0.6230926,"y":-84.55926,},
+                            {"th0":1.0,"th1":-1.0,"tv0":0.0,"tv1":0.0,"x":1.0,"y":-90.6756744,},
                           ],"resourceVersion":"1.0","name":"y","tags":[],"resourceType":"GMAnimCurveChannel",},
                       ],"parent":{"name":"position","path":"sequences/seq_menu/seq_menu.yy",},"resourceVersion":"1.2","name":"Position","tags":[],"resourceType":"GMAnimCurve",},"RealValue":0.0,"AnimCurveId":null,"resourceVersion":"1.0","resourceType":"RealKeyframe",},"1":{"EmbeddedAnimCurve":{"function":0,"channels":[
                         {"colour":4290799884,"visible":true,"points":[
@@ -71,8 +71,8 @@
                           ],"resourceVersion":"1.0","name":"x","tags":[],"resourceType":"GMAnimCurveChannel",},
                         {"colour":4281083598,"visible":true,"points":[
                             {"th0":1.0,"th1":-1.0,"tv0":0.0,"tv1":0.0,"x":0.0,"y":0.0,},
-                            {"th0":1.0,"th1":-1.0,"tv0":0.0,"tv1":0.0,"x":0.19148165,"y":-46.93646,},
-                            {"th0":1.0,"th1":-1.0,"tv0":0.0,"tv1":0.0,"x":1.0,"y":-110.999527,},
+                            {"th0":1.0,"th1":-1.0,"tv0":0.0,"tv1":0.0,"x":0.6230926,"y":-84.55926,},
+                            {"th0":1.0,"th1":-1.0,"tv0":0.0,"tv1":0.0,"x":1.0,"y":-90.6756744,},
                           ],"resourceVersion":"1.0","name":"y","tags":[],"resourceType":"GMAnimCurveChannel",},
                       ],"parent":{"name":"position","path":"sequences/seq_menu/seq_menu.yy",},"resourceVersion":"1.2","name":"Position","tags":[],"resourceType":"GMAnimCurve",},"RealValue":0.0,"AnimCurveId":null,"resourceVersion":"1.0","resourceType":"RealKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<RealKeyframe>",},
             ],"resourceVersion":"1.0","resourceType":"KeyframeStore<RealKeyframe>",},"trackColour":4294068402,"inheritsTrackColour":true,"traits":0,"interpolation":1,"tracks":[],"events":[],"resourceVersion":"1.0","tags":[],"resourceType":"GMRealTrack","modifiers":[],},
@@ -120,7 +120,7 @@
             {"name":"rotation","builtinName":8,"isCreationTrack":true,"keyframes":{"Keyframes":[
                   {"id":"422580e7-e3a5-4590-932e-7e1fc91a7243","Key":6.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"EmbeddedAnimCurve":null,"RealValue":0.0,"AnimCurveId":null,"resourceVersion":"1.0","resourceType":"RealKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<RealKeyframe>",},
                 ],"resourceVersion":"1.0","resourceType":"KeyframeStore<RealKeyframe>",},"trackColour":4294068402,"inheritsTrackColour":true,"traits":0,"interpolation":1,"tracks":[],"events":[],"resourceVersion":"1.0","tags":[],"resourceType":"GMRealTrack","modifiers":[],},
-            {"name":"scale","builtinName":15,"isCreationTrack":true,"keyframes":{"Keyframes":[
+            {"name":"scale","builtinName":15,"isCreationTrack":false,"keyframes":{"Keyframes":[
                   {"id":"6101569a-d468-4148-8727-fe27f6ab90aa","Key":6.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":true,"Channels":{"0":{"EmbeddedAnimCurve":null,"RealValue":1.0,"AnimCurveId":null,"resourceVersion":"1.0","resourceType":"RealKeyframe",},"1":{"EmbeddedAnimCurve":null,"RealValue":1.0,"AnimCurveId":null,"resourceVersion":"1.0","resourceType":"RealKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<RealKeyframe>",},
                 ],"resourceVersion":"1.0","resourceType":"KeyframeStore<RealKeyframe>",},"trackColour":4294068402,"inheritsTrackColour":true,"traits":0,"interpolation":1,"tracks":[],"events":[],"resourceVersion":"1.0","tags":[],"resourceType":"GMRealTrack","modifiers":[],},
           ],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","name":"spr_logo_white","tags":[],"resourceType":"GMGraphicTrack","modifiers":[],},
