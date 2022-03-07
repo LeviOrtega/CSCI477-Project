@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_test",
-    "path": "sprites/spr_test/spr_test.yy",
+    "name": "spr_player_dodo",
+    "path": "sprites/spr_player_dodo/spr_player_dodo.yy",
   },
   "solid": false,
   "visible": true,
