@@ -9,6 +9,7 @@
     {"id":{"name":"til_ground","path":"tilesets/til_ground/til_ground.yy",},"order":0,},
     {"id":{"name":"obj_button_parent","path":"objects/obj_button_parent/obj_button_parent.yy",},"order":1,},
     {"id":{"name":"spr_ground","path":"sprites/spr_ground/spr_ground.yy",},"order":2,},
+    {"id":{"name":"spr_basic_dino_walking","path":"sprites/spr_basic_dino_walking/spr_basic_dino_walking.yy",},"order":7,},
     {"id":{"name":"rm_2","path":"rooms/rm_2/rm_2.yy",},"order":1,},
     {"id":{"name":"spr_warp","path":"sprites/spr_warp/spr_warp.yy",},"order":1,},
     {"id":{"name":"spr_dodo_walking_right","path":"sprites/spr_dodo_walking_right/spr_dodo_walking_right.yy",},"order":6,},
