@@ -24,14 +24,6 @@ else {
 	sprite_index = spr_player_dodo;
 }
 
-//if ((keyRight - keyLeft) == 0){
-//	sprite_index = spr_player_dodo;
-//}
-//else {
-//	sprite_index = spr_dodo_walking_right;
-//	image_xscale = (keyRight - keyLeft);
-//}
-
 if (place_meeting(x + hsp, y, obj_wall)){
 	hsp = 0;	
 }
