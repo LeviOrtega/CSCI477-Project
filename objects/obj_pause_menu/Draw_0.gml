@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-
+depth=-10;
 switch (global.game_state) {
 	case states.paused:
 		x = room_width/2 - width/2;
