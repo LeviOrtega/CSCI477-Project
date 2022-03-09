@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_basic_dino","path":"sprites/spr_basic_dino/spr_basic_dino.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_basic_dino",
     "tags": [],
     "resourceType": "GMSequence",
