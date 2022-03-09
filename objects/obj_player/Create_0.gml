@@ -1,4 +1,5 @@
 /// @description Set speed...
 
 
-spd = 5;
+spd = 3;
+hp = 5;
