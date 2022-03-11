@@ -1,7 +1,7 @@
 /// @param text_id
 // this would hold pretty much most of the game's text
 function scr_game_text(_text_id) {
-	switch(_text_id) {
+	switch(_text_id) { 
 		case "":
 			break;
 		case "sign 1":

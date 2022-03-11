@@ -3,7 +3,7 @@
 accept_key = keyboard_check_pressed(vk_space);
 
 textbox_x = camera_get_view_x(view_camera[0]);
-textbox_y= camera_get_view_y(view_camera[0]) + 360;
+textbox_y= camera_get_view_y(view_camera[0]) + 480;
 
 if !setup {
 	setup = false;
@@ -15,8 +15,8 @@ if !setup {
 	for (var p = 0; p < page_number; p++) {
 		text_length[p] = string_length(text[p]);
 		
-		//ceneters the textbox
-		text_x_offset[p] = 270;
+		//centers the textbox
+		text_x_offset[p] = 380;
 	}
 }
 	
