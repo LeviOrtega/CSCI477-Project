@@ -3,7 +3,7 @@
 // Inherit the parent event
 event_inherited();
 
-if (point_distance(x, y, obj_player.x, obj_player.y) < 128) {
+if (point_distance(x, y, obj_player.x, obj_player.y) < 360) {
     state = enemy_state.CHASE;
 } else {
 	state = enemy_state.WANDER;	
