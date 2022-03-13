@@ -1,16 +1,13 @@
 {
   "spriteId": {
-    "name": "spr_basic_dino_walking",
-    "path": "sprites/spr_basic_dino_walking/spr_basic_dino_walking.yy",
+    "name": "spr_solid",
+    "path": "sprites/spr_solid/spr_solid.yy",
   },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": {
-    "name": "obj_par_enemy",
-    "path": "objects/obj_par_enemy/obj_par_enemy.yy",
-  },
+  "parentObjectId": null,
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -23,10 +20,7 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
@@ -34,7 +28,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_velociraptor",
+  "name": "obj_solid",
   "tags": [],
   "resourceType": "GMObject",
 }
