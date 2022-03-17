@@ -14,6 +14,7 @@
     {"id":{"name":"spr_ground","path":"sprites/spr_ground/spr_ground.yy",},"order":2,},
     {"id":{"name":"spr_basic_dino_walking","path":"sprites/spr_basic_dino_walking/spr_basic_dino_walking.yy",},"order":7,},
     {"id":{"name":"obj_velociraptor","path":"objects/obj_velociraptor/obj_velociraptor.yy",},"order":4,},
+    {"id":{"name":"obj_camera","path":"objects/obj_camera/obj_camera.yy",},"order":7,},
     {"id":{"name":"rm_2","path":"rooms/rm_2/rm_2.yy",},"order":1,},
     {"id":{"name":"obj_par_enemy","path":"objects/obj_par_enemy/obj_par_enemy.yy",},"order":3,},
     {"id":{"name":"spr_warp","path":"sprites/spr_warp/spr_warp.yy",},"order":1,},
@@ -78,7 +79,7 @@
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2022.2.0.614",
+    "IDEVersion": "2022.2.1.618",
   },
   "resourceVersion": "1.5",
   "name": "DinoDynasty",
