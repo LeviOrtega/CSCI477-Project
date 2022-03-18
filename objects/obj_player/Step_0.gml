@@ -9,6 +9,8 @@ keyLeft = keyboard_check(vk_left);
 keyUp = keyboard_check(vk_up);
 keyDown = keyboard_check(vk_down);
 
+
+
 hsp = (keyRight - keyLeft) * spd;
 vsp = (keyDown - keyUp) * spd;
 
@@ -37,4 +39,13 @@ if (place_meeting(x, y+vsp, obj_wall)){
 x += hsp;
 y += vsp;
 
+
+nearbyNPC = collision_rectangle(x-lookRange,y-lookRange,x+lookRange,y+lookRange,obj_sign,false,true);
+interact  = keyboard_check(vk_space);
+//show_debug_message("interact= " + string(interact));
+ 
+if nearbyNPC && interact && !instance_exists(obj_textbox) {
+	show_debug_message("interacting");
+	create_textbox(nearbyNPC.text_id);
+}
 
