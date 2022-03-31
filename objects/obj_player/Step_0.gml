@@ -1,7 +1,12 @@
 /// @description Movement
 
-reset_variables();
-get_input();
-calc_movement();
-check_attack();
-anim();
+switch(state) {
+	default:
+		reset_variables();
+		get_input();
+		calc_movement();
+		check_attack();
+		anim();
+		break;
+	
+}

@@ -1,7 +1,8 @@
 /// @description Set speed...
 
+event_inherited();
+
 spd = 3;
-facing = 1;
 
 aim_dir = 0;
 attack_speed = 40;

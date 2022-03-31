@@ -4,8 +4,7 @@
 event_inherited();
 
 spd = 2;
-dir = 1;
-start_x = x - 100;
-end_x = x + 100;
+spr_idle = spr_basic_dino;
+spr_walk = spr_basic_dino_walking;
 
 //state = enemy_state.WANDER;

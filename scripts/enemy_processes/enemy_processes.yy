@@ -6,7 +6,7 @@
     "path": "folders/Scripts.yy",
   },
   "resourceVersion": "1.0",
-  "name": "check_for_player",
+  "name": "enemy_processes",
   "tags": [],
   "resourceType": "GMScript",
 }
