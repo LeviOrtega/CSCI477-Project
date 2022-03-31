@@ -4,6 +4,7 @@
 function check_for_player(){
 	player = obj_player;
 	var _dis = distance_to_object(player);
+	
 	if calc_path_timer-- <= 0 {
 		calc_path_timer = calc_path_delay;
 		var _found_player = mp_grid_path(global.mp_grid, path, x, y, player.x, player.y, choose(0, 1));
