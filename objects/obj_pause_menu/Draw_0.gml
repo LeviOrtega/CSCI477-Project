@@ -3,6 +3,9 @@
 depth=-10;
 switch (global.game_state) {
 	case states.paused:
+		if global.text {
+			break;	
+		}
 		x = room_width/2 - width/2;
 		y =  room_height/2 - height/2;
 		draw_sprite_ext(sprite_index, image_index, x, y, width/sprite_width, height/sprite_height, 0, c_white, 1);
