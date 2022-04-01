@@ -11,6 +11,9 @@ op_length = array_length(option[menu_level]);
 
 switch (global.game_state) {
 	case states.paused:
+		if global.text {
+			break;	
+		}
 		pos += down_key - up_key;
 		if (pos >= op_length) {
 			pos = 0

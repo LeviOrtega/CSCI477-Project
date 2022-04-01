@@ -37,7 +37,19 @@ if (global.game_state == states.playing) {
 
 nearbyNPC = collision_rectangle(x-lookRange,y-lookRange,x+lookRange,y+lookRange,obj_sign,false,true);
 interact  = keyboard_check(vk_space);
-if nearbyNPC && interact && !instance_exists(obj_textbox) {
-	show_debug_message("interacting");
-	create_textbox(nearbyNPC.text_id);
+if global.game_state == states.playing && nearbyNPC && interact && global.can_interact {
+	//show_debug_message("interacting");
+	global.can_interact = false;
+	global.game_state = states.paused;
+	global.text = true;
+	with (nearbyNPC) {
+		create_textbox(text_id);
+	}
+}
+
+if global.int_timer > 0 && !instance_exists(obj_textbox) {
+	global.int_timer--;
+	if global.int_timer == 0 {
+		global.can_interact = true;	
+	}
 }

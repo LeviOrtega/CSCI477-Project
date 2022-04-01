@@ -6,7 +6,7 @@ textbox_x = camera_get_view_x(view_camera[0]);
 textbox_y= camera_get_view_y(view_camera[0]) + 480;
 
 if !setup {
-	setup = false;
+	setup = true;
 	draw_set_font(fnt_text);
 	draw_set_valign(fa_top);
 	draw_set_halign(fa_left);
@@ -37,8 +37,15 @@ if accept_key {
 		} else {
 			if option_number > 0 {
 				create_textbox(option_link_id[option_pos]);
+			} else {
+				global.text = false;
+				global.game_state = states.playing;
 			}
-			instance_destroy();	
+			// 60 frames.
+			global.int_timer = 60;
+			instance_destroy();
+			
+			
 		}
 	} else {
 		draw_char = text_length[page];
@@ -49,6 +56,10 @@ if accept_key {
 // txtb_img += txtb_img_spd;
 txtb_spr_w = sprite_get_width(txtb_spr);
 txtb_spr_h = sprite_get_height(txtb_spr);
+// NOTE: IF THIS VARIABLE CRASHES HERE, 
+// with text_x_offest not set
+// text_id is not set properly
+// or the function has not found the id.
 var _txtb_x = textbox_x + text_x_offset[page]
 
 draw_sprite_ext(txtb_spr,
