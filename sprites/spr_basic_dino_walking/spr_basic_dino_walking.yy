@@ -85,8 +85,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Dinos",
+    "path": "folders/Sprites/Dinos.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_basic_dino_walking",

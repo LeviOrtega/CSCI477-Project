@@ -1,8 +1,5 @@
 {
-  "spriteId": {
-    "name": "spr_basic_dino_walking",
-    "path": "sprites/spr_basic_dino_walking/spr_basic_dino_walking.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
@@ -24,17 +21,16 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Enemies",
-    "path": "folders/Objects/Enemies.yy",
+    "name": "Bosses",
+    "path": "folders/Objects/Bosses.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_velociraptor",
+  "name": "obj_par_boss",
   "tags": [],
   "resourceType": "GMObject",
 }
