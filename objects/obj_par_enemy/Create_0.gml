@@ -1,7 +1,11 @@
 /// @description define default stats for enemies
 
+spd = 1;
+hp = 1;
+dir = 1;
 event_inherited();
 
+can_collide = true;
 alert = false;
 
 alert_dis = 160;

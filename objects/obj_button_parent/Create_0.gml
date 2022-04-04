@@ -2,3 +2,4 @@
 // You can write your code in this editor
 
 text = "Button";
+global.text = false;
