@@ -3,6 +3,8 @@
 // Inherit the parent event
 event_inherited();
 
-dir = 1;
-start_x = x - 100;
-end_x = x + 100;
+spd = 2;
+spr_idle = spr_basic_dino;
+spr_walk = spr_basic_dino_walking;
+
+//state = enemy_state.WANDER;

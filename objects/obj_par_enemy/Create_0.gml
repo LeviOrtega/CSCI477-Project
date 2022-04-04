@@ -3,5 +3,21 @@
 spd = 1;
 hp = 1;
 dir = 1;
+event_inherited();
 
 can_collide = true;
+alert = false;
+
+alert_dis = 160;
+
+attack_dis = 18;
+
+path = path_add();
+
+calc_path_delay = 30;
+
+calc_path_timer = irandom(60);
+
+spd = 2;
+
+hp = 1;

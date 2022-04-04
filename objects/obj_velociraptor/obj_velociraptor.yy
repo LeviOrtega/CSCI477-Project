@@ -5,7 +5,10 @@
   },
   "solid": false,
   "visible": true,
-  "spriteMaskId": null,
+  "spriteMaskId": {
+    "name": "spr_basic_dino",
+    "path": "sprites/spr_basic_dino/spr_basic_dino.yy",
+  },
   "persistent": false,
   "parentObjectId": {
     "name": "obj_par_enemy",
