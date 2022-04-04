@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-state = states.IDLE;
+state = entity_states.IDLE;
 
 xp = x;
 yp = y;

@@ -13,5 +13,4 @@ if (instance_exists(obj_player)) {
 	
 	var _spd = .1;
 	camera_set_view_pos(view, lerp(_curr_x, _x, _spd), lerp(_curr_y, _y, _spd));
-	
 }

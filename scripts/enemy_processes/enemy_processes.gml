@@ -28,16 +28,16 @@ function check_for_player(){
 
 function enemy_anim(){
 	switch(state) {
-		case states.IDLE:
+		case entity_states.IDLE:
 			sprite_index = spr_basic_dino_idle;
 			break;
-		case states.MOVE:
+		case entity_states.MOVE:
 			sprite_index = spr_basic_dino_walking;
 			break;
-		case states.ATTACK:
+		case entity_states.ATTACK:
 		
 			break;
-		case states.DEAD:
+		case entity_states.DEAD:
 
 			break;
 	}
