@@ -1,6 +1,10 @@
 /// @description Movement
 
 switch(state) {
+	case "evolving":
+		
+		form = (form == 1) ? 0 : 1;
+		break;
 	default:
 		reset_variables();
 		get_input();
@@ -8,6 +12,8 @@ switch(state) {
 		check_attack();
 		anim();
 		break;
+	
+	
 }
 	
 //hsp = 0;
@@ -61,5 +67,18 @@ if global.int_timer > 0 && !instance_exists(obj_textbox) {
 	global.int_timer--;
 	if global.int_timer == 0 {
 		global.can_interact = true;	
+	}
+}
+
+if evolve {
+	state = "evolving";
+	evolve = false;
+	switch (form) {
+		case 0:
+			sprite_index = spr_player_dodo;
+			break;
+		case 1:
+			sprite_index = spr_basic_dino;
+			break;
 	}
 }
