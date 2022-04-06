@@ -2,7 +2,6 @@
 
 switch(state) {
 	case "evolving":
-		
 		form = (form == 1) ? 0 : 1;
 		break;
 	default:
@@ -12,7 +11,6 @@ switch(state) {
 		check_attack();
 		anim();
 		break;
-	
 	
 }
 	
