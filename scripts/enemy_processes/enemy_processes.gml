@@ -35,7 +35,7 @@ function enemy_anim(){
 			sprite_index = spr_basic_dino_walking;
 			break;
 		case entity_states.ATTACK:
-		
+			sprite_index = spr_velociraptor_bite;
 			break;
 		case entity_states.DEAD:
 

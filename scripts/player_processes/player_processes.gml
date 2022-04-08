@@ -54,7 +54,7 @@ function collision(){
 		if !(instance_place(x + sign(_tx - x), y, obj_solid)) x += sign(_tx - x);	
 	}
 	repeat(_disy) {
-		if !(instance_place(x, y +  sign(_ty - y), obj_solid)) y += sign(_ty - y);	
+		if !(instance_place(x, y + sign(_ty - y), obj_solid)) y += sign(_ty - y);	
 	}
 }
 
@@ -69,7 +69,7 @@ function anim() {
 function check_attack() {
 	if mouse_check_button(mb_left) {
 		if can_attack {
-			can_attack= false;
+			can_attack = false;
 			alarm[0] = attack_speed;
 			
 			var _dir = point_direction(x, y, mouse_x, mouse_y);
