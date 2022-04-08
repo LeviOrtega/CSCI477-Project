@@ -37,6 +37,7 @@
     {"id":{"name":"spr_warp","path":"sprites/spr_warp/spr_warp.yy",},"order":1,},
     {"id":{"name":"spr_dodo_walking_right","path":"sprites/spr_dodo_walking_right/spr_dodo_walking_right.yy",},"order":1,},
     {"id":{"name":"rm_carn_boss","path":"rooms/rm_carn_boss/rm_carn_boss.yy",},"order":3,},
+    {"id":{"name":"obj_pachy","path":"objects/obj_pachy/obj_pachy.yy",},"order":5,},
     {"id":{"name":"obj_camera","path":"objects/obj_camera/obj_camera.yy",},"order":7,},
     {"id":{"name":"enemy_processes","path":"scripts/enemy_processes/enemy_processes.yy",},"order":5,},
     {"id":{"name":"spr_dodo_walking","path":"sprites/spr_dodo_walking/spr_dodo_walking.yy",},"order":9,},

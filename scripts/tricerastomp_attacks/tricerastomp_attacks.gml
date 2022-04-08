@@ -1,7 +1,7 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 
-
+//TODO: make general 'center' function to center the boss in the room
 
 function defensive_dash(){
 	// center attacks
@@ -35,7 +35,7 @@ function defensive_dash(){
 			
 			
 			
-}
+	}
 
 ready_for_attacking = true;	
 			
@@ -72,6 +72,7 @@ function defensive_stage_two(){
 	if (stage_runs[1] == 0){
 	//dest_x = room_width - 10;
 	//dest_y = y;
+	// aim at players current position
 	dest_x = obj_player.x;
 	dest_y = obj_player.y;
 	
@@ -128,3 +129,41 @@ function defensive_stage_one(){
 	stage_runs[0] ++;
 }
 
+function stampede(){
+	// center boss
+	
+	// scream, stun player, call in stampede waves from random directions
+	wave_count = 3;
+	
+	for (var w = 0; w < wave_count; w++){
+		// generate a diff number between 0-3 to indicate which direction stampede will come from
+		stampede_dir = irandom(3);
+		// loop 10 times spawning enemy at randomly generated values added/subtracted to room size
+		for (var i = 0; i < 10; i++){
+			// randomize spawn position based on stampede_dir
+			switch (stampede_dir){
+				//left of screen
+				case 0:
+					tempx = 0;
+					tempy = irandom(room_height);
+					break;
+				//top of screen
+				case 1:
+					tempx = irandom(room_width);
+					tempy = 0;
+					break;
+				//right of screen
+				case 2:
+					tempx = room_width;
+					tempy = irandom(room_height);
+					break;
+				//bottom of screen
+				case 3:
+					tempx = irandom(room_width);
+					tempy = room_height;
+					break;
+			}
+			instance_create_layer(tempx,tempy,"Enemy",obj_velociraptor);
+		}
+	}
+}

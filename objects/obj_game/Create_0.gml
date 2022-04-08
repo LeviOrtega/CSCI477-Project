@@ -9,3 +9,5 @@ enum entity_states {
 }
 
 global.mp_grid = 0;
+
+randomize();

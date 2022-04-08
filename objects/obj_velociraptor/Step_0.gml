@@ -17,6 +17,7 @@ switch(state) {
 		break;
 	case entity_states.ATTACK:
 		enemy_anim();
+		
 		break;
 	case entity_states.DEAD:
 		enemy_anim();
