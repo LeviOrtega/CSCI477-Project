@@ -1,10 +1,12 @@
 {
   "resources": [
+    {"id":{"name":"rm_start","path":"rooms/rm_start/rm_start.yy",},"order":5,},
     {"id":{"name":"fnt_button","path":"fonts/fnt_button/fnt_button.yy",},"order":0,},
     {"id":{"name":"spr_logo_white","path":"sprites/spr_logo_white/spr_logo_white.yy",},"order":4,},
     {"id":{"name":"spr_triceratops_walking","path":"sprites/spr_triceratops_walking/spr_triceratops_walking.yy",},"order":7,},
     {"id":{"name":"scr_textbox_functions","path":"scripts/scr_textbox_functions/scr_textbox_functions.yy",},"order":3,},
     {"id":{"name":"obj_settings","path":"objects/obj_settings/obj_settings.yy",},"order":1,},
+    {"id":{"name":"spr_water","path":"sprites/spr_water/spr_water.yy",},"order":12,},
     {"id":{"name":"seq_menu","path":"sequences/seq_menu/seq_menu.yy",},"order":0,},
     {"id":{"name":"spr_cursor","path":"sprites/spr_cursor/spr_cursor.yy",},"order":9,},
     {"id":{"name":"fnt_text","path":"fonts/fnt_text/fnt_text.yy",},"order":1,},
@@ -13,6 +15,7 @@
     {"id":{"name":"scr_game_text","path":"scripts/scr_game_text/scr_game_text.yy",},"order":6,},
     {"id":{"name":"fnt_pause","path":"fonts/fnt_pause/fnt_pause.yy",},"order":1,},
     {"id":{"name":"obj_entities","path":"objects/obj_entities/obj_entities.yy",},"order":9,},
+    {"id":{"name":"spr_tree","path":"sprites/spr_tree/spr_tree.yy",},"order":13,},
     {"id":{"name":"spr_slash","path":"sprites/spr_slash/spr_slash.yy",},"order":10,},
     {"id":{"name":"spr_solid","path":"sprites/spr_solid/spr_solid.yy",},"order":8,},
     {"id":{"name":"spr_button","path":"sprites/spr_button/spr_button.yy",},"order":2,},
@@ -42,6 +45,7 @@
     {"id":{"name":"obj_warp","path":"objects/obj_warp/obj_warp.yy",},"order":1,},
     {"id":{"name":"obj_solid","path":"objects/obj_solid/obj_solid.yy",},"order":6,},
     {"id":{"name":"spr_wall","path":"sprites/spr_wall/spr_wall.yy",},"order":3,},
+    {"id":{"name":"spr_nest","path":"sprites/spr_nest/spr_nest.yy",},"order":14,},
     {"id":{"name":"spr_player_dodo","path":"sprites/spr_player_dodo/spr_player_dodo.yy",},"order":4,},
     {"id":{"name":"obj_attack","path":"objects/obj_attack/obj_attack.yy",},"order":8,},
     {"id":{"name":"spr_test","path":"sprites/spr_test/spr_test.yy",},"order":0,},
@@ -67,7 +71,7 @@
     {"name":"operagx","path":"options/operagx/options_operagx.yy",},
     {"name":"Windows","path":"options/windows/options_windows.yy",},
   ],
-  "isDnDProject": false,
+  "defaultScriptType": 1,
   "isEcma": false,
   "configs": {
     "name": "Default",
@@ -75,6 +79,7 @@
   },
   "RoomOrderNodes": [
     {"roomId":{"name":"rm_menu","path":"rooms/rm_menu/rm_menu.yy",},},
+    {"roomId":{"name":"rm_start","path":"rooms/rm_start/rm_start.yy",},},
     {"roomId":{"name":"rm_1","path":"rooms/rm_1/rm_1.yy",},},
     {"roomId":{"name":"rm_herb_1","path":"rooms/rm_herb_1/rm_herb_1.yy",},},
     {"roomId":{"name":"rm_test","path":"rooms/rm_test/rm_test.yy",},},
@@ -108,11 +113,11 @@
     {"targets":-1,"resourceVersion":"1.3","name":"audiogroup_default","resourceType":"GMAudioGroup",},
   ],
   "TextureGroups": [
-    {"isScaled":true,"autocrop":true,"border":2,"mipsToGenerate":0,"groupParent":null,"targets":-1,"resourceVersion":"1.3","name":"Default","resourceType":"GMTextureGroup",},
+    {"isScaled":true,"compressFormat":"bz2","autocrop":true,"border":2,"mipsToGenerate":0,"groupParent":null,"targets":-1,"resourceVersion":"1.3","name":"Default","resourceType":"GMTextureGroup",},
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2022.2.1.618",
+    "IDEVersion": "2022.3.0.624",
   },
   "resourceVersion": "1.5",
   "name": "DinoDynasty",
