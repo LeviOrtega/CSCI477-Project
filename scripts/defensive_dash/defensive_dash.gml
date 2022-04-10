@@ -26,11 +26,7 @@ function defensive_dash(){
 			
 		default:
 			show_debug_message("DD End");
-			stage = 0;
-			attack = 0;
-			for (var i = 0; i < array_length(stage_runs); i++){
-				stage_runs[i] = 0;
-			}
+			reset_attacks();
 			break;
 			
 			

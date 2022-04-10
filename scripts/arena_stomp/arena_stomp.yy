@@ -2,11 +2,11 @@
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "Scripts",
-    "path": "folders/Scripts.yy",
+    "name": "Tricerastomp_attacks",
+    "path": "folders/Scripts/Tricerastomp_attacks.yy",
   },
   "resourceVersion": "1.0",
-  "name": "tricerastomp_attacks",
+  "name": "arena_stomp",
   "tags": [],
   "resourceType": "GMScript",
 }

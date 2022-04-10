@@ -7,7 +7,8 @@ switch(attack) {
 			defensive_dash();
 			break;
 		case 2:
-			// attack 2
+			show_debug_message("attack two")
+			arena_stomp();
 			break;
 		case 3:
 				//attack 3

@@ -14,13 +14,16 @@ dest_y = y;
 ready_for_attacking = true;
 
 // specifies which attack boss is on
-attack = 1;
+attack = 0;
 
 // stage of attack
 stage = 1;
 
 
 // amount of times each stage has been run, some stages only want to be run once, while others multiple times
-stage_runs = [ 0,0,0];
+stage_runs = [0,0,0];
+
+// we use this value to determine how long the boss should wait for some attacks
+future_time = 0;
 
 

@@ -9,6 +9,8 @@ switch(state) {
 		anim();
 		break;
 }
+
+
 	
 //hsp = 0;
 //vsp = 0;
