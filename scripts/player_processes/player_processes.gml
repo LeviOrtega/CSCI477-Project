@@ -32,7 +32,7 @@ function calc_movement() {
 		// Get movement distance
 		hmove = lengthdir_x(spd, _dir);
 		vmove = lengthdir_y(spd, _dir);
-		
+		show_debug_message(hmove);
 		// Add movement to players position
 		x += hmove;
 		y += vmove;

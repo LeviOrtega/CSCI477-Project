@@ -22,7 +22,10 @@ function check_for_player(){
 			}
 		}
 	} else {
-		if _dis <= attack_dis path_end();
+		if _dis <= attack_dis {
+			path_end();
+			enemy_attack();
+		}
 	}
 }
 
@@ -43,4 +46,24 @@ function enemy_anim(){
 	}
 	xp = x;
 	yp = y;
+}
+
+function enemy_attack() {
+	if enemy_can_attack {
+		enemy_can_attack = false;
+		alarm[0] = enemy_attack_speed
+		
+		var _dir = point_direction(x, y, obj_player.x, obj_player.y);
+		var _inst = instance_create_layer(x, y, "Attack", obj_attack2);
+		
+		with(_inst) {
+			direction = _dir;
+			image_angle = _dir;
+			image_xscale = 0.5;
+			image_yscale = 0.5;
+			owner_id = other;
+			x = x + lengthdir_x(30, _dir);
+			y = y + lengthdir_y(30, _dir);
+		}
+	}
 }

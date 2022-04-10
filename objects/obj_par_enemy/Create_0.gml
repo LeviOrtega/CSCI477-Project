@@ -6,11 +6,15 @@ dir = 1;
 event_inherited();
 
 can_collide = true;
+
+enemy_can_attack = true;
+enemy_attack_speed = 50
+
 alert = false;
 
 alert_dis = 160;
 
-attack_dis = 18;
+attack_dis = 20;
 
 path = path_add();
 
