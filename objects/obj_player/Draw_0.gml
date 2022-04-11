@@ -1,5 +1,5 @@
 /// @description Draw ourself
-draw_self();
+event_inherited();
 
 switch (state) {
 	case "evolving":
