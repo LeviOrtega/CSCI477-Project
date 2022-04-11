@@ -8,7 +8,9 @@ switch(attack) {
 			break;
 		case 2:
 			show_debug_message("attack two");
-			stampede();
+			//use an alarm here to call stampede 3 times with a 4s pause between each call to simulate 3 waves
+			center_boss();
+			alarm[2] = room_speed * 4;
 			break;
 		case 3:
 				//attack 3
