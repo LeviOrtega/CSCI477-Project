@@ -8,6 +8,7 @@ function reset_variables() {
 	right = 0;
 	hmove = 0;
 	vmove = 0;
+	
 }
 
 function get_input() {
@@ -15,6 +16,7 @@ function get_input() {
 	if keyboard_check(ord("A")) left = 1;
 	if keyboard_check(ord("S")) down = 1;
 	if keyboard_check(ord("D")) right = 1;
+	if keyboard_check(ord("Q")) evolve = 1;
 }
 
 function calc_movement() {
@@ -60,9 +62,24 @@ function collision(){
 
 function anim() {
 	if hmove != 0 || vmove != 0 {
-		sprite_index = spr_dodo_walking;
+		switch (form) {
+			case 0:
+				sprite_index = spr_dodo_walking;
+				break;
+			case 1:
+				sprite_index = spr_basic_dino_walking;
+				break;
+		}
+		
 	} else {
-		sprite_index = spr_player_dodo;
+		switch (form) {
+			case 0:
+				sprite_index = spr_player_dodo;
+				break;
+			case 1:
+				sprite_index = spr_basic_dino;
+				break;
+		}
 	}
 }
 
