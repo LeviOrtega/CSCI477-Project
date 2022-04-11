@@ -3,6 +3,7 @@
 // Inherit the parent event
 event_inherited();
 stunned = false;
+stomping = false;
 
 dest_x = x;
 dest_y = y;

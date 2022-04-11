@@ -1,8 +1,10 @@
 /// @description 
 
 if (stampede_wave < 3){
+	stomping = true;
 	stampede();
 	stampede_wave++;
+	stopming = false;
 	alarm[2] = room_speed * 4;
 }
 
