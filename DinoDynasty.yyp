@@ -55,6 +55,7 @@
     {"id":{"name":"rm_menu","path":"rooms/rm_menu/rm_menu.yy",},"order":1,},
     {"id":{"name":"obj_play_button","path":"objects/obj_play_button/obj_play_button.yy",},"order":2,},
     {"id":{"name":"obj_par_boss","path":"objects/obj_par_boss/obj_par_boss.yy",},"order":0,},
+    {"id":{"name":"shd_flash","path":"shaders/shd_flash/shd_flash.yy",},"order":0,},
     {"id":{"name":"rm_herb_boss","path":"rooms/rm_herb_boss/rm_herb_boss.yy",},"order":4,},
     {"id":{"name":"obj_quit_button","path":"objects/obj_quit_button/obj_quit_button.yy",},"order":3,},
     {"id":{"name":"spr_menu","path":"sprites/spr_menu/spr_menu.yy",},"order":5,},
