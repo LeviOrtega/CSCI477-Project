@@ -8,13 +8,12 @@ if (global.game_state = states.playing) {
 	if (stunned){
 		spd = 0;
 		sprite_index = spr_triceratops_stunned;
+		
 		alarm[0] = room_speed * 3;
 		stunned = false;	
 		}
 		else {
-			if (stomping){
-				sprite_index = spr_triceratops_stomp;
-			}
+		
 			if (y_spd == 0 && x_spd == 0){
 				sprite_index = spr_triceratops_idle;	
 			}
@@ -30,7 +29,10 @@ if (global.game_state = states.playing) {
 	if (y != dest_y) { y += y_dir *y_spd;}
 	else{y_spd = 0;}
 
-	
+	if (attack == 0 && ready_for_attacking == true){
+		ready_for_attacking = false;
+		alarm[3] = room_speed * 3
+	}
 
 	
 	if (ready_for_attacking == true){
@@ -40,5 +42,7 @@ if (global.game_state = states.playing) {
 	
 	
 }
+
+
 
 

@@ -9,5 +9,4 @@ enum entity_states {
 }
 
 global.mp_grid = 0;
-
-randomize();
+global.player_hp = 5;

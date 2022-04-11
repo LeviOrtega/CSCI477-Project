@@ -9,6 +9,8 @@ switch(state) {
 		anim();
 		break;
 }
+
+
 	
 //hsp = 0;
 //vsp = 0;
@@ -44,6 +46,7 @@ switch(state) {
 //	x += hsp;
 //	y += vsp;
 //}
+
 nearbyNPC = collision_rectangle(x-lookRange,y-lookRange,x+lookRange,y+lookRange,obj_sign,false,true);
 interact  = keyboard_check(vk_space);
 if global.game_state == states.playing && nearbyNPC && interact && global.can_interact {
