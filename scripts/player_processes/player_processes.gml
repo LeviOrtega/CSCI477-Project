@@ -54,14 +54,19 @@ function collision(){
 		if !(instance_place(x + sign(_tx - x), y, obj_solid)) x += sign(_tx - x);	
 	}
 	repeat(_disy) {
-		if !(instance_place(x, y +  sign(_ty - y), obj_solid)) y += sign(_ty - y);	
+		if !(instance_place(x, y + sign(_ty - y), obj_solid)) y += sign(_ty - y);	
 	}
 }
 
 function anim() {
 	if hmove != 0 || vmove != 0 {
 		sprite_index = spr_dodo_walking;
-	} else {
+	} 
+	//should only run when player attacks
+	else if (attacking == true){
+		sprite_index = spr_dodo_peck;
+	}
+	else {
 		sprite_index = spr_player_dodo;
 	}
 }
@@ -69,7 +74,8 @@ function anim() {
 function check_attack() {
 	if mouse_check_button(mb_left) {
 		if can_attack {
-			can_attack= false;
+			can_attack = false;
+			attacking = true;
 			alarm[0] = attack_speed;
 			
 			var _dir = point_direction(x, y, mouse_x, mouse_y);

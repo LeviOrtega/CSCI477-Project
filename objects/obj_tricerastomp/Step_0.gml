@@ -13,7 +13,9 @@ if (global.game_state = states.playing) {
 		stunned = false;	
 		}
 		else {
-		
+			if (stomping){
+				sprite_index = spr_triceratops_stomp;
+			}
 			if (y_spd == 0 && x_spd == 0){
 				sprite_index = spr_triceratops_idle;	
 			}

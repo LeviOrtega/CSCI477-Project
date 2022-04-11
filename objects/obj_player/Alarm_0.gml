@@ -1,4 +1,4 @@
-/// @description Insert description here
-// You can write your code in this editor
+/// @description reset can_attack
 
 can_attack = true;
+attacking = false;

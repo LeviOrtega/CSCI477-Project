@@ -12,6 +12,9 @@ lookRange = 50;
 aim_dir = 0;
 attack_speed = 40;
 can_attack = true;
+attacking = false;
+
+stunned = false;
 
 cursor_sprite = spr_cursor;
 window_set_cursor(cr_none);
