@@ -52,6 +52,7 @@
     {"id":{"name":"obj_menu_controller","path":"objects/obj_menu_controller/obj_menu_controller.yy",},"order":0,},
     {"id":{"name":"spr_triceratops_idle","path":"sprites/spr_triceratops_idle/spr_triceratops_idle.yy",},"order":5,},
     {"id":{"name":"obj_game","path":"objects/obj_game/obj_game.yy",},"order":5,},
+    {"id":{"name":"obj_attack2","path":"objects/obj_attack2/obj_attack2.yy",},"order":10,},
     {"id":{"name":"rm_menu","path":"rooms/rm_menu/rm_menu.yy",},"order":1,},
     {"id":{"name":"obj_play_button","path":"objects/obj_play_button/obj_play_button.yy",},"order":2,},
     {"id":{"name":"obj_par_boss","path":"objects/obj_par_boss/obj_par_boss.yy",},"order":0,},
