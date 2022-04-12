@@ -54,7 +54,6 @@
     {"id":{"name":"spr_velociraptor_bite","path":"sprites/spr_velociraptor_bite/spr_velociraptor_bite.yy",},"order":9,},
     {"id":{"name":"spr_wall","path":"sprites/spr_wall/spr_wall.yy",},"order":3,},
     {"id":{"name":"spr_nest","path":"sprites/spr_nest/spr_nest.yy",},"order":14,},
-    {"id":{"name":"spr_player_dodo","path":"sprites/spr_player_dodo/spr_player_dodo.yy",},"order":4,},
     {"id":{"name":"spr_player_dodo","path":"sprites/spr_player_dodo/spr_player_dodo.yy",},"order":2,},
     {"id":{"name":"obj_dmg","path":"objects/obj_dmg/obj_dmg.yy",},"order":0,},
     {"id":{"name":"center_boss","path":"scripts/center_boss/center_boss.yy",},"order":4,},
@@ -78,7 +77,6 @@
     {"id":{"name":"spr_basic_dino_idle","path":"sprites/spr_basic_dino_idle/spr_basic_dino_idle.yy",},"order":8,},
     {"id":{"name":"spr_logo","path":"sprites/spr_logo/spr_logo.yy",},"order":3,},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"order":2,},
-    {"id":{"name":"rm_1","path":"rooms/rm_1/rm_1.yy",},"order":0,},
   ],
   "Options": [
     {"name":"macOS","path":"options/mac/options_mac.yy",},
@@ -93,14 +91,13 @@
     "children": [],
   },
   "RoomOrderNodes": [
-    {"roomId":{"name":"rm_herb_boss","path":"rooms/rm_herb_boss/rm_herb_boss.yy",},},
-    {"roomId":{"name":"rm_1","path":"rooms/rm_1/rm_1.yy",},},
     {"roomId":{"name":"rm_menu","path":"rooms/rm_menu/rm_menu.yy",},},
     {"roomId":{"name":"rm_start","path":"rooms/rm_start/rm_start.yy",},},
-    {"roomId":{"name":"rm_1","path":"rooms/rm_1/rm_1.yy",},},
     {"roomId":{"name":"rm_herb_1","path":"rooms/rm_herb_1/rm_herb_1.yy",},},
+    {"roomId":{"name":"rm_herb_boss","path":"rooms/rm_herb_boss/rm_herb_boss.yy",},},
     {"roomId":{"name":"rm_test","path":"rooms/rm_test/rm_test.yy",},},
     {"roomId":{"name":"rm_carn_boss","path":"rooms/rm_carn_boss/rm_carn_boss.yy",},},
+    {"roomId":{"name":"rm_1","path":"rooms/rm_1/rm_1.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
@@ -137,7 +134,7 @@
   "MetaData": {
     "IDEVersion": "2022.3.0.624",
   },
-  "resourceVersion": "1.4",
+  "resourceVersion": "1.5",
   "name": "DinoDynasty",
   "tags": [],
   "resourceType": "GMProject",

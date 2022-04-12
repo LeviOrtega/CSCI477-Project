@@ -14,7 +14,7 @@ if (global.game_state = states.playing) {
 		}
 		else {
 		
-			if (y_spd == 0 && x_spd == 0){
+			if (spd == 0){
 				sprite_index = spr_triceratops_idle;	
 			}
 			else {
@@ -24,10 +24,14 @@ if (global.game_state = states.playing) {
 	
 	
 	// scripts determine the speed and direction the triceratops should go, just set it
-	if (x != dest_x) { x += x_dir*x_spd;}
-	else {x_spd = 0;}
-	if (y != dest_y) { y += y_dir *y_spd;}
-	else{y_spd = 0;}
+	//if (x != dest_x) { x += x_dir*x_spd;}
+	//else {x_spd = 0;}
+	//if (y != dest_y) { y += y_dir *y_spd;}
+	//else{y_spd = 0;}
+	
+	if (abs(dest_x - x) <= spd && abs(dest_y - y) <= spd){
+			spd = 0;
+	}
 
 	if (attack == 0 && ready_for_attacking == true){
 		ready_for_attacking = false;

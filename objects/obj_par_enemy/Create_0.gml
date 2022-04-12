@@ -25,7 +25,5 @@ calc_path_delay = 30;
 calc_path_timer = irandom(60);
 
 spd = 2;
-y_spd = 2;
-x_spd = 2;
 
 hp = 1;

@@ -3,12 +3,8 @@
 function center_boss(){
 	dest_x =  room_width/2;
 	dest_y =  room_height/2;
-	y_spd = 2;
-	x_spd = 2;
-
-	if (y < dest_y){ y_dir = 1;}
-	else if (y > dest_y) {y_dir = -1;}
-
-	if (x > dest_x){x_dir = -1;}
-	else if (x < dest_x){x_dir = 1;}
+	spd = 2;
+	
+	move_towards_point(dest_x, dest_y, spd);
+	
 }

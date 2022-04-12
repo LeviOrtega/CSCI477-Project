@@ -70,24 +70,24 @@ function anim() {
 				sprite_index = spr_basic_dino_walking;
 				break;
 		}
-		
+	} else if (attacking == true) {
+		switch(form) {
+			case 0:
+				sprite_index = spr_dodo_peck;
+				break;
+			case 1:
+				sprite_index = spr_velociraptor_bite;
+				break;
+		}
 	} else {
 		switch (form) {
 			case 0:
 				sprite_index = spr_player_dodo;
 				break;
 			case 1:
-				sprite_index = spr_basic_dino;
+				sprite_index = spr_basic_dino_idle;
 				break;
 		}
-		sprite_index = spr_dodo_walking;
-	} 
-	//should only run when player attacks
-	else if (attacking == true){
-		sprite_index = spr_dodo_peck;
-	}
-	else {
-		sprite_index = spr_player_dodo;
 	}
 }
 

@@ -1,3 +1,3 @@
-targetRoom = rm_1;
-targetX = 640;
-targetY = 645;
+targetRoom = rm_herb_1;
+targetX = 380;
+targetY = 640;
