@@ -1,3 +1,3 @@
 targetRoom = rm_herb_boss;
-targetX = 150;
+targetX = 130;
 targetY = 350;

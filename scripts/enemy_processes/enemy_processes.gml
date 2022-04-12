@@ -62,8 +62,8 @@ function enemy_attack() {
 			image_xscale = 0.5;
 			image_yscale = 0.5;
 			owner_id = other;
-			x = x + lengthdir_x(30, _dir);
-			y = y + lengthdir_y(30, _dir);
+			x = x + lengthdir_x(25, _dir);
+			y = y + lengthdir_y(25, _dir);
 		}
 	}
 }
