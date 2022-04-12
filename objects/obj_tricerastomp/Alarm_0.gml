@@ -1,5 +1,7 @@
 /// @description reset spd and sprite
 
 //stunned = false;
-spd = 1.5;
+y_spd = 2;
+x_spd = 2;
 sprite_index = spr_triceratops_walking;
+

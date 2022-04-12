@@ -9,3 +9,4 @@ enum entity_states {
 }
 
 global.mp_grid = 0;
+global.player_hp = 5;

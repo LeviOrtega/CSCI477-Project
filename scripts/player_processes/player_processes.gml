@@ -80,13 +80,22 @@ function anim() {
 				sprite_index = spr_basic_dino;
 				break;
 		}
+		sprite_index = spr_dodo_walking;
+	} 
+	//should only run when player attacks
+	else if (attacking == true){
+		sprite_index = spr_dodo_peck;
+	}
+	else {
+		sprite_index = spr_player_dodo;
 	}
 }
 
 function check_attack() {
 	if mouse_check_button(mb_left) {
 		if can_attack {
-			can_attack= false;
+			can_attack = false;
+			attacking = true;
 			alarm[0] = attack_speed;
 			
 			var _dir = point_direction(x, y, mouse_x, mouse_y);

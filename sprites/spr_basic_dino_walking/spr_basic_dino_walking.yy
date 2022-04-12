@@ -75,7 +75,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_basic_dino_walking","path":"sprites/spr_basic_dino_walking/spr_basic_dino_walking.yy",},
-    "resourceVersion": "1.4",
+    "resourceVersion": "1.3",
     "name": "spr_basic_dino_walking",
     "tags": [],
     "resourceType": "GMSequence",

@@ -3,6 +3,8 @@
 spd = 1;
 hp = 1;
 dir = 1;
+x_dir = 1;
+y_dir = 1;
 event_inherited();
 
 can_collide = true;
@@ -23,5 +25,7 @@ calc_path_delay = 30;
 calc_path_timer = irandom(60);
 
 spd = 2;
+y_spd = 2;
+x_spd = 2;
 
 hp = 1;
