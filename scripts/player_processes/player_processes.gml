@@ -8,6 +8,7 @@ function reset_variables() {
 	right = 0;
 	hmove = 0;
 	vmove = 0;
+	
 }
 
 function get_input() {
@@ -15,6 +16,7 @@ function get_input() {
 	if keyboard_check(ord("A")) left = 1;
 	if keyboard_check(ord("S")) down = 1;
 	if keyboard_check(ord("D")) right = 1;
+	if keyboard_check(ord("Q")) evolve = 1;
 }
 
 function calc_movement() {
@@ -32,7 +34,7 @@ function calc_movement() {
 		// Get movement distance
 		hmove = lengthdir_x(spd, _dir);
 		vmove = lengthdir_y(spd, _dir);
-		
+		show_debug_message(hmove);
 		// Add movement to players position
 		x += hmove;
 		y += vmove;
@@ -60,6 +62,24 @@ function collision(){
 
 function anim() {
 	if hmove != 0 || vmove != 0 {
+		switch (form) {
+			case 0:
+				sprite_index = spr_dodo_walking;
+				break;
+			case 1:
+				sprite_index = spr_basic_dino_walking;
+				break;
+		}
+		
+	} else {
+		switch (form) {
+			case 0:
+				sprite_index = spr_player_dodo;
+				break;
+			case 1:
+				sprite_index = spr_basic_dino;
+				break;
+		}
 		sprite_index = spr_dodo_walking;
 	} 
 	//should only run when player attacks

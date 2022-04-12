@@ -1,3 +1,3 @@
-targetRoom = rm_herb_1;
+targetRoom = rm_start;
 targetX = 1200;
 targetY = 350;
