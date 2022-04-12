@@ -14,11 +14,12 @@ dest_y = y;
 ready_for_attacking = true;
 
 // specifies which attack boss is on
-attack = 0;
+attack = 1;
 
 // stage of attack
 stage = 1;
 
+stampede_wave = 0;
 
 // amount of times each stage has been run, some stages only want to be run once, while others multiple times
 stage_runs = [0,0,0];
