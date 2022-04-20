@@ -13,8 +13,8 @@ switch(attack) {
 		case 3:
 			show_debug_message("attack three");
 			stampede();
-			center_boss();
-			alarm[2] = room_speed * 4;
+			
+			
 			break;
 		default:
 			

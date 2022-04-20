@@ -3,8 +3,24 @@
 function stampede(){
 	// scream, stun player, call in stampede waves from random directions
 	wave_count = 3;
+	stampede_wave ++;
+	
+	if (stampede_wave > wave_count){
+		reset_attacks();
+		
+	}
+	else{
 	// generate a diff number between 0-3 to indicate which direction stampede will come from
-	stampede_dir = irandom(3);
+		stamp_on_em();
+	}
+	
+	
+	ready_for_attacking = true;	
+}
+
+function stamp_on_em(){
+	
+stampede_dir = irandom(3);
 
 	// loop to spawn enemies
 	for (var i = 0; i < 15; i++){
@@ -43,5 +59,5 @@ function stampede(){
 			speed = 3 + other.speed_mul;
 			direction = 90 * other.stampede_dir;
 		}
-	}
+	}	
 }
