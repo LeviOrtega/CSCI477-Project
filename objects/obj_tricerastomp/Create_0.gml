@@ -3,9 +3,11 @@
 // Inherit the parent event
 event_inherited();
 stunned = false;
+been_stunned = false;
 
 dest_x = x;
 dest_y = y;
+hp = 20;
 
 
 //attacking booleans
@@ -14,7 +16,7 @@ dest_y = y;
 ready_for_attacking = true;
 
 // specifies which attack boss is on
-attack = 3;
+attack = 1;
 
 // stage of attack
 stage = 1;

@@ -12,13 +12,14 @@ if (global.game_state = states.playing) {
 	else spd = 0;
 	
 	
-	if (stunned && spd != 0){
+	if (stunned && been_stunned == false){
+		been_stunned = true;
 		spd = 0;
 		sprite_index = spr_triceratops_stunned;
 		alarm[0] = room_speed * 2;
 			
 		}
-		else if ( stunned == false) {
+		else if (stunned == false) {
 		
 			if (spd == 0){
 				sprite_index = spr_triceratops_idle;	
