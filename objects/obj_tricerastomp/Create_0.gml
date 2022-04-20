@@ -3,9 +3,11 @@
 // Inherit the parent event
 event_inherited();
 stunned = false;
+been_stunned = false;
 
 dest_x = x;
 dest_y = y;
+hp = 20;
 
 
 //attacking booleans

@@ -5,14 +5,21 @@ event_inherited();
 
 if (global.game_state = states.playing) {
 	// if stunned, stop movement for 3 seconds and play stun animation, then resume
-	if (stunned){
+	
+	
+	if point_distance(x, y, dest_x, dest_y) > spd
+	{ move_towards_point(dest_x, dest_y, spd);}
+	else spd = 0;
+	
+	
+	if (stunned && been_stunned == false){
+		been_stunned = true;
 		spd = 0;
 		sprite_index = spr_triceratops_stunned;
-		
-		alarm[0] = room_speed * 3;
-		stunned = false;	
+		alarm[0] = room_speed * 2;
+			
 		}
-		else {
+		else if (stunned == false) {
 		
 			if (spd == 0){
 				sprite_index = spr_triceratops_idle;	
@@ -20,29 +27,26 @@ if (global.game_state = states.playing) {
 			else {
 				sprite_index = spr_triceratops_walking;	
 			}
-		}
-	
-	
-	// scripts determine the speed and direction the triceratops should go, just set it
-	//if (x != dest_x) { x += x_dir*x_spd;}
-	//else {x_spd = 0;}
-	//if (y != dest_y) { y += y_dir *y_spd;}
-	//else{y_spd = 0;}
-	
-	if (abs(dest_x - x) <= spd && abs(dest_y - y) <= spd){
-			spd = 0;
-	}
+			
+			
+			
 
-	if (attack == 0 && ready_for_attacking == true){
-		ready_for_attacking = false;
-		alarm[3] = room_speed * 3
-	}
+			if (attack == 0 && ready_for_attacking == true){
+				ready_for_attacking = false;
+				alarm[3] = room_speed * 3
+			}
 
 	
-	if (ready_for_attacking == true){
-	ready_for_attacking = false;
-	alarm[1] = room_speed * 2;
-	}
+			if (ready_for_attacking == true){
+			ready_for_attacking = false;
+			alarm[1] = room_speed * 2;
+			}
+			
+				}
+	
+	
+	
+	
 	
 	
 }

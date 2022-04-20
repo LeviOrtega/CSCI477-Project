@@ -5,6 +5,6 @@ function center_boss(){
 	dest_y =  room_height/2;
 	spd = 2;
 	
-	move_towards_point(dest_x, dest_y, spd);
+	
 	
 }
