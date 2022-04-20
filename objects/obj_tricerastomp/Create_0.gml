@@ -14,7 +14,7 @@ dest_y = y;
 ready_for_attacking = true;
 
 // specifies which attack boss is on
-attack = 0;
+attack = 3;
 
 // stage of attack
 stage = 1;

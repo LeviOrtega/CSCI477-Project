@@ -2,7 +2,7 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function stampede(){
 	// scream, stun player, call in stampede waves from random directions
-	wave_count = 3;
+	wave_count = 5;
 	stampede_wave ++;
 	
 	if (stampede_wave > wave_count){
@@ -11,7 +11,9 @@ function stampede(){
 	}
 	else{
 	// generate a diff number between 0-3 to indicate which direction stampede will come from
+		center_boss()
 		stamp_on_em();
+		
 	}
 	
 	
@@ -19,6 +21,8 @@ function stampede(){
 }
 
 function stamp_on_em(){
+	
+	
 	
 stampede_dir = irandom(3);
 
@@ -30,23 +34,23 @@ stampede_dir = irandom(3);
 			
 			//right of screen moving left
 			case 2:
-				tempx = room_width;
+				tempx = room_width - 20;
 				tempy = irandom(room_height);
 				break;
 			//top of screen moving down
 			case 3:
 				tempx = irandom(room_width);
-				tempy = 0;
+				tempy = 20;
 				break;
 			//left of screen moving right
 			case 0:
-				tempx = 0;
+				tempx = 20;
 				tempy = irandom(room_height);
 				break;
 			//bottom of screen moving up
 			case 1:
 				tempx = irandom(room_width);
-				tempy = room_height;
+				tempy = room_height - 20;
 				break;
 		}
 
