@@ -6,7 +6,11 @@ flash = 0;
 spd = 3;
 hp = 5;
 form = 0;
+global.forms = [0,0,0,0];
+
 transformed = false;
+transforming = false;
+
 global.can_interact = false;
 global.int_timer = 60;
 nearbyNPC = noone;

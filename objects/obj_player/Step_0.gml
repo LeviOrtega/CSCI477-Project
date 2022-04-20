@@ -2,8 +2,37 @@
 
 switch(state) {
 	case "evolving":
-		form = (form == 1) ? 0 : 1;
-		break;
+		//form = (form == 1) ? 0 : 1;
+		if (!transforming){
+			//if (form == 0){
+			//	show_debug_message("form = 1");
+			//	form = 1;
+			//	transforming = true;
+			//	break;
+			//}
+			//else if (form == 1){
+			//	form = 2;
+			//	show_debug_message("form = 2");
+			//	transforming = true;
+			//	break;
+			//}
+			//else if (form == 2){
+			//	form = 0;
+			//	show_debug_message("form = 0");
+			//	transforming = true;
+			//	break;
+			//}
+			if (global.forms[form] != 0){
+				form++;
+				transforming = true;
+				break;
+			}
+			else {
+				form = 0;
+				break;
+			}
+		}
+		//break;
 	default:
 		reset_variables();
 		get_input();
@@ -72,13 +101,16 @@ if global.int_timer > 0 && !instance_exists(obj_textbox) {
 
 if evolve {
 	state = "evolving";
-	evolve = false;
+	evolve = 0;
 	switch (form) {
 		case 0:
 			sprite_index = spr_player_dodo;
 			break;
 		case 1:
 			sprite_index = spr_basic_dino;
+			break;
+		case 2:
+			sprite_index = spr_triceratops_idle;
 			break;
 	}
 }

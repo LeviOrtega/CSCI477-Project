@@ -69,6 +69,9 @@ function anim() {
 			case 1:
 				sprite_index = spr_basic_dino_walking;
 				break;
+			case 2:
+				sprite_index = spr_triceratops_walking;
+				break;
 		}
 	} else if (attacking == true) {
 		switch(form) {
@@ -78,6 +81,9 @@ function anim() {
 			case 1:
 				sprite_index = spr_velociraptor_bite;
 				break;
+			case 2:
+				sprite_index = spr_triceratops_stomp;
+				break;
 		}
 	} else {
 		switch (form) {
@@ -86,6 +92,9 @@ function anim() {
 				break;
 			case 1:
 				sprite_index = spr_basic_dino_idle;
+				break;
+			case 2:
+				sprite_index = spr_triceratops_idle;
 				break;
 		}
 	}
