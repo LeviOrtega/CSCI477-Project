@@ -9,6 +9,9 @@ dest_x = x;
 dest_y = y;
 hp = 20;
 
+image_xscale *= 2.5;
+image_yscale *= 2.5;
+
 
 //attacking booleans
 
@@ -16,7 +19,7 @@ hp = 20;
 ready_for_attacking = true;
 
 // specifies which attack boss is on
-attack = 1;
+attack = 0;
 
 // stage of attack
 stage = 1;
