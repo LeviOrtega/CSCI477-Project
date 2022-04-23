@@ -1,8 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-up_key = keyboard_check_pressed(vk_up);
-down_key = keyboard_check_pressed(vk_down);
+up_key = keyboard_check_pressed(ord("W"));
+down_key = keyboard_check_pressed(ord("S"));
 accept_key = keyboard_check_pressed(vk_space);
 accept_key2 = keyboard_check_pressed(vk_enter);
 
@@ -22,7 +22,7 @@ switch (global.game_state) {
 			pos = op_length - 1
 		}
 			
-		show_debug_message("Pos = " + string(pos));
+		//show_debug_message("Pos = " + string(pos));
 		
 		if (accept_key || accept_key2) {
 			var _ml = menu_level;

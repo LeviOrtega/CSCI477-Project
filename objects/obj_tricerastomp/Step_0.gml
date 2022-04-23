@@ -42,13 +42,7 @@ if (global.game_state = states.playing) {
 			alarm[1] = room_speed * 2;
 			}
 			
-				}
-	
-	
-	
-	
-	
-	
+		}
 }
 
 

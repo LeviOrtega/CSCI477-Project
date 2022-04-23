@@ -1,17 +1,18 @@
 /// @description Movement
 
-switch(state) {
-	case "evolving":
-		form = (form == 1) ? 0 : 1;
-		break;
-	default:
-		reset_variables();
-		get_input();
-		calc_movement();
-		check_attack();
-		anim();
-		break;
-	
+if (global.game_state != states.paused) {
+	switch(state) {
+		case "evolving":
+			form = (form == 1) ? 0 : 1;
+			break;
+		default:
+			reset_variables();
+			get_input();
+			calc_movement();
+			check_attack();
+			anim();
+			break;
+	}
 }
 
 
