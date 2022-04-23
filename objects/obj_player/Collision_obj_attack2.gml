@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-hp -= 1;
+global.player_hp -= 1;
 
 knockback = 15;
 

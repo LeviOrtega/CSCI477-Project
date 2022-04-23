@@ -8,5 +8,7 @@ enum entity_states {
 	DEAD,
 }
 
+
 global.mp_grid = 0;
 global.player_hp = 5;
+global.player_maxhp = 5;
