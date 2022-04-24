@@ -53,10 +53,10 @@ function collision(){
 	var _disx = abs(_tx - x);
 	var _disy = abs(_ty - y);
 	repeat(_disx) {
-		if !(instance_place(x + sign(_tx - x), y, obj_solid)) x += sign(_tx - x);	
+		if !(place_meeting(x + sign(_tx - x), y, obj_solid)) x += sign(_tx - x);	
 	}
 	repeat(_disy) {
-		if !(instance_place(x, y +  sign(_ty - y), obj_solid)) y += sign(_ty - y);	
+		if !(place_meeting(x, y +  sign(_ty - y), obj_solid)) y += sign(_ty - y);	
 	}
 }
 
