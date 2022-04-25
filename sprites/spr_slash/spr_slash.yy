@@ -67,7 +67,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_slash","path":"sprites/spr_slash/spr_slash.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_slash",
     "tags": [],
     "resourceType": "GMSequence",
