@@ -22,13 +22,14 @@ switch(state) {
 			//	transforming = true;
 			//	break;
 			//}
-			if (global.forms[form] != 0){
+			if (form < array_length(global.forms) - 1 and global.forms[form + 1] != 0){
 				form++;
 				transforming = true;
 				break;
 			}
 			else {
 				form = 0;
+				transforming = true;
 				break;
 			}
 		}

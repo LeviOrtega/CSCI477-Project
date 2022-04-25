@@ -7,5 +7,3 @@ spr_idle = spr_basic_dino;
 spr_walk = spr_basic_dino_walking;
 
 state = entity_states.MOVE;
-
-form_id = 2;
