@@ -34,10 +34,6 @@ switch(state) {
 			}
 		}
 		//break;
-	
-	case "dead":
-		state = "game over";
-		instance_create_layer(0, 0, "Instances", obj_deathscreen);
 	default:
 		reset_variables();
 		get_input();
