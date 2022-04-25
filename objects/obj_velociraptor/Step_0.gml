@@ -3,6 +3,7 @@
 // Inherit the parent event
 event_inherited();
 
+if (global.game_state != states.paused) {
 switch(state) {
 	case entity_states.IDLE:
 		check_for_player();
@@ -21,6 +22,10 @@ switch(state) {
 	case entity_states.DEAD:
 		enemy_anim();
 		break;
+}
+} else {
+	path_end();
+	image_index = spr_basic_dino;
 }
 //if (global.game_state = states.playing) {
 //	// basic movement to start with

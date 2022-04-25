@@ -40,23 +40,14 @@ ready_for_attacking = true;
 
 function defensive_stage_three(){
 	if (stage_runs[2] == 0){
-	dest_x =  room_width/2;
-	dest_y =  room_height/2;
-	spd = 5;
+	center_boss();
 	
 	
-		if (y < dest_y){ y_dir = 1;}
-		else if (y > dest_y) {y_dir = -1;}
-		
-		
-		if (x > dest_x){x_dir = -1;}
-		else if (x < dest_x){x_dir = 1;}
 	}
-	else {
-		if (x == dest_x && y == dest_y){
+	else if (spd == 0){
 			stage++;
 			
-		}
+		
 	}
 	
 	stage_runs[2] ++;
@@ -70,21 +61,14 @@ function defensive_stage_two(){
 	
 		spd = 10;
 	
-		//if (y < dest_y){ y_dir = 1;}
-		//else if (y > dest_y) {y_dir = -1;}
-	
-		//if (x > dest_x){x_dir = -1;}
-		//else if (x < dest_x){x_dir = 1;}
+		}
+	else if (spd == 0){
+			stage++;
+			
 		
 	}
 	
-	else {
-		if (spd == 0){
-			stage++;
-		}
-	}
 	
-	move_towards_point(dest_x, dest_y, spd);
 	
 	stage_runs[1] ++;
 }
@@ -100,13 +84,11 @@ function defensive_stage_one(){
 	
 	
 	}
-	else {
-		if (spd == 0){
+	else if (spd == 0){
 			stage++;
 			
-		}
+		
 	}
-	move_towards_point(room_width/2, room_height/2, spd);
 	
 	stage_runs[0] ++;
 }

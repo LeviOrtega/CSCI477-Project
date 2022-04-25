@@ -23,8 +23,8 @@ function check_for_player(){
 		}
 	} else {
 		if _dis <= attack_dis {
-			path_end();
 			enemy_attack();
+			path_end();
 		}
 	}
 }

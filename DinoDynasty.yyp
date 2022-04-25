@@ -3,6 +3,7 @@
     {"id":{"name":"rm_start","path":"rooms/rm_start/rm_start.yy",},"order":5,},
     {"id":{"name":"rm_1","path":"rooms/rm_1/rm_1.yy",},"order":6,},
     {"id":{"name":"fnt_button","path":"fonts/fnt_button/fnt_button.yy",},"order":0,},
+    {"id":{"name":"spr_heart","path":"sprites/spr_heart/spr_heart.yy",},"order":15,},
     {"id":{"name":"spr_logo_white","path":"sprites/spr_logo_white/spr_logo_white.yy",},"order":4,},
     {"id":{"name":"spr_triceratops_walking","path":"sprites/spr_triceratops_walking/spr_triceratops_walking.yy",},"order":6,},
     {"id":{"name":"scr_textbox_functions","path":"scripts/scr_textbox_functions/scr_textbox_functions.yy",},"order":3,},
@@ -101,8 +102,8 @@
   "RoomOrderNodes": [
     {"roomId":{"name":"rm_menu","path":"rooms/rm_menu/rm_menu.yy",},},
     {"roomId":{"name":"rm_start","path":"rooms/rm_start/rm_start.yy",},},
-    {"roomId":{"name":"rm_herb_1","path":"rooms/rm_herb_1/rm_herb_1.yy",},},
     {"roomId":{"name":"rm_herb_boss","path":"rooms/rm_herb_boss/rm_herb_boss.yy",},},
+    {"roomId":{"name":"rm_herb_1","path":"rooms/rm_herb_1/rm_herb_1.yy",},},
     {"roomId":{"name":"rm_test","path":"rooms/rm_test/rm_test.yy",},},
     {"roomId":{"name":"rm_carn_boss","path":"rooms/rm_carn_boss/rm_carn_boss.yy",},},
     {"roomId":{"name":"rm_1","path":"rooms/rm_1/rm_1.yy",},},

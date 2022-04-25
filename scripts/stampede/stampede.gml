@@ -2,9 +2,29 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function stampede(){
 	// scream, stun player, call in stampede waves from random directions
-	wave_count = 3;
+	wave_count = 5;
+	stampede_wave ++;
+	
+	if (stampede_wave > wave_count){
+		reset_attacks();
+		
+	}
+	else{
 	// generate a diff number between 0-3 to indicate which direction stampede will come from
-	stampede_dir = irandom(3);
+		center_boss()
+		stamp_on_em();
+		
+	}
+	
+	
+	ready_for_attacking = true;	
+}
+
+function stamp_on_em(){
+	
+	
+	
+stampede_dir = irandom(3);
 
 	// loop to spawn enemies
 	for (var i = 0; i < 15; i++){
@@ -14,23 +34,23 @@ function stampede(){
 			
 			//right of screen moving left
 			case 2:
-				tempx = room_width;
+				tempx = room_width - 20;
 				tempy = irandom(room_height);
 				break;
 			//top of screen moving down
 			case 3:
 				tempx = irandom(room_width);
-				tempy = 0;
+				tempy = 20;
 				break;
 			//left of screen moving right
 			case 0:
-				tempx = 0;
+				tempx = 20;
 				tempy = irandom(room_height);
 				break;
 			//bottom of screen moving up
 			case 1:
 				tempx = irandom(room_width);
-				tempy = room_height;
+				tempy = room_height - 20;
 				break;
 		}
 
@@ -43,5 +63,5 @@ function stampede(){
 			speed = 3 + other.speed_mul;
 			direction = 90 * other.stampede_dir;
 		}
-	}
+	}	
 }
