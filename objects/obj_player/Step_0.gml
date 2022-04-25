@@ -41,7 +41,6 @@ switch(state) {
 		check_attack();
 		anim();
 		break;
-	
 }
 
 

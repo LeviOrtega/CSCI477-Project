@@ -1,13 +1,13 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-width = 512;
-height = 216;
+width = sprite_width;
+height = sprite_height;
 
 pos = 0;
 
-op_border = 48;
-op_space = 80;
+op_border = 0;
+op_space = 48;
 
 // Pause Menu
 option[0, 0] = "Resume Game";
@@ -23,3 +23,7 @@ option[1, 3] = "Back";
 
 op_length = 0;
 menu_level = 0;
+
+view_width = 1920 / 2.5;
+view_height = 1080 / 2.5;
+

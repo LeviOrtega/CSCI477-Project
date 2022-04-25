@@ -4,7 +4,6 @@ event_inherited();
 evolve = 0;
 flash = 0;
 spd = 3;
-hp = 5;
 form = 0;
 global.forms = [0,0,0];
 
