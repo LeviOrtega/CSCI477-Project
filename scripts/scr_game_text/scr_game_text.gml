@@ -22,5 +22,11 @@ function scr_game_text(_text_id) {
 		case "test-notready":
 			scr_text("not nice");
 			break;
+		case "starting area":
+			scr_text("Welcome young dodo bird.");
+			scr_text("A meteor is swiftly approaching.");
+			scr_text("You must evolve into the alpha dinosaur and save the world from extinction.");
+			scr_text("Seek out and destroy the dynasties and take their powers.");
+			break;
 	}
 }
