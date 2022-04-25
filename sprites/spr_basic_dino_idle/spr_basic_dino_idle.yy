@@ -67,7 +67,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_basic_dino_idle","path":"sprites/spr_basic_dino_idle/spr_basic_dino_idle.yy",},
-    "resourceVersion": "1.4",
+    "resourceVersion": "1.3",
     "name": "spr_basic_dino_idle",
     "tags": [],
     "resourceType": "GMSequence",

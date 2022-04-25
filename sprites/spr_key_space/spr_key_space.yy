@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_key_space","path":"sprites/spr_key_space/spr_key_space.yy",},
-    "resourceVersion": "1.4",
+    "resourceVersion": "1.3",
     "name": "spr_key_space",
     "tags": [],
     "resourceType": "GMSequence",
