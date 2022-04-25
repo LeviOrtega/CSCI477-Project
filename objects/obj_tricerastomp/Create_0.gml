@@ -32,4 +32,6 @@ stage_runs = [0,0,0];
 // we use this value to determine how long the boss should wait for some attacks
 future_time = 0;
 
+form_id = 2;
+
 

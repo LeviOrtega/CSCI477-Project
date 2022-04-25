@@ -27,3 +27,5 @@ calc_path_timer = irandom(60);
 spd = 2;
 
 hp = 1;
+
+form_id = 0;

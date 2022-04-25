@@ -1,18 +1,46 @@
 /// @description Movement
 
-if (global.game_state != states.paused) {
-	switch(state) {
-		case "evolving":
-			form = (form == 1) ? 0 : 1;
-			break;
-		default:
-			reset_variables();
-			get_input();
-			calc_movement();
-			check_attack();
-			anim();
-			break;
-	}
+switch(state) {
+	case "evolving":
+		//form = (form == 1) ? 0 : 1;
+		if (!transforming){
+			//if (form == 0){
+			//	show_debug_message("form = 1");
+			//	form = 1;
+			//	transforming = true;
+			//	break;
+			//}
+			//else if (form == 1){
+			//	form = 2;
+			//	show_debug_message("form = 2");
+			//	transforming = true;
+			//	break;
+			//}
+			//else if (form == 2){
+			//	form = 0;
+			//	show_debug_message("form = 0");
+			//	transforming = true;
+			//	break;
+			//}
+			if (form < array_length(global.forms) - 1 and global.forms[form + 1] != 0){
+				form++;
+				transforming = true;
+				break;
+			}
+			else {
+				form = 0;
+				transforming = true;
+				break;
+			}
+		}
+		//break;
+	default:
+		reset_variables();
+		get_input();
+		calc_movement();
+		check_attack();
+		anim();
+		break;
 }
 
 
@@ -73,13 +101,16 @@ if global.int_timer > 0 && !instance_exists(obj_textbox) {
 
 if evolve {
 	state = "evolving";
-	evolve = false;
+	evolve = 0;
 	switch (form) {
 		case 0:
 			sprite_index = spr_player_dodo;
 			break;
 		case 1:
 			sprite_index = spr_basic_dino;
+			break;
+		case 2:
+			sprite_index = spr_triceratops_idle;
 			break;
 	}
 }
