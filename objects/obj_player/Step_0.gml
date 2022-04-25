@@ -37,7 +37,7 @@ switch(state) {
 	
 	case "dead":
 		state = "game over";
-		alarm[2] = room_speed * 1;
+		instance_create_layer(0, 0, "Instances", obj_deathscreen);
 	default:
 		reset_variables();
 		get_input();
@@ -121,5 +121,6 @@ if evolve {
 }
 
 if (global.player_hp <= 0){
-	game_end();
+	room_goto(rm_deathscreen);
+	global.game_state = states.gameover;
 }
