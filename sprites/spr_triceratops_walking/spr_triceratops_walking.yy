@@ -75,7 +75,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_triceratops_walking","path":"sprites/spr_triceratops_walking/spr_triceratops_walking.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_triceratops_walking",
     "tags": [],
     "resourceType": "GMSequence",

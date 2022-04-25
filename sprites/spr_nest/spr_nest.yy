@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_nest","path":"sprites/spr_nest/spr_nest.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_nest",
     "tags": [],
     "resourceType": "GMSequence",

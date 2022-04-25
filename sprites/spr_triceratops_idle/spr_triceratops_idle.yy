@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_triceratops_idle","path":"sprites/spr_triceratops_idle/spr_triceratops_idle.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_triceratops_idle",
     "tags": [],
     "resourceType": "GMSequence",

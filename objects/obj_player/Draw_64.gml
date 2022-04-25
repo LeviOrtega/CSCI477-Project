@@ -18,6 +18,4 @@ if nearbyNPC && global.can_interact {
 	with (nearbyNPC) {
 		draw_text(gui_x, gui_y - 50,"?");
 	}
-	
 }
-
