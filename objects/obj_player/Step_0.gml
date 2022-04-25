@@ -1,5 +1,5 @@
 /// @description Movement
-
+if (global.game_state == states.playing) {
 switch(state) {
 	case "evolving":
 		//form = (form == 1) ? 0 : 1;
@@ -41,6 +41,7 @@ switch(state) {
 		check_attack();
 		anim();
 		break;
+}
 }
 
 
@@ -114,3 +115,4 @@ if evolve {
 			break;
 	}
 }
+
