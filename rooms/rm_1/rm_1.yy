@@ -86,7 +86,7 @@
     {"name":"inst_7C6525E3","path":"rooms/rm_1/rm_1.yy",},
     {"name":"inst_5F4359E0","path":"rooms/rm_1/rm_1.yy",},
     {"name":"inst_41D008D4","path":"rooms/rm_1/rm_1.yy",},
-    {"name":"inst_4B5E4144","path":"rooms/rm_1/rm_1.yy",},
+    {"name":"rm_1","path":"rooms/rm_1/rm_1.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

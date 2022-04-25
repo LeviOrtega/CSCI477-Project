@@ -171,7 +171,7 @@
     "name": "Sequences",
     "path": "folders/Sequences.yy",
   },
-  "resourceVersion": "1.4",
+  "resourceVersion": "1.3",
   "name": "seq_menu",
   "tags": [],
   "resourceType": "GMSequence",

@@ -75,7 +75,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_triceratops_stunned","path":"sprites/spr_triceratops_stunned/spr_triceratops_stunned.yy",},
-    "resourceVersion": "1.4",
+    "resourceVersion": "1.3",
     "name": "spr_triceratops_stunned",
     "tags": [],
     "resourceType": "GMSequence",

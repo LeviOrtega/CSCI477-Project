@@ -7,7 +7,7 @@ been_stunned = false;
 
 dest_x = x;
 dest_y = y;
-hp = 20;
+hp = 10;
 
 image_xscale *= 2.5;
 image_yscale *= 2.5;

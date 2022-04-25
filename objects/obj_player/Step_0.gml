@@ -34,6 +34,10 @@ switch(state) {
 			}
 		}
 		//break;
+	
+	case "dead":
+		state = "game over";
+		alarm[2] = room_speed * 1;
 	default:
 		reset_variables();
 		get_input();
@@ -116,3 +120,6 @@ if evolve {
 	}
 }
 
+if (global.player_hp <= 0){
+	game_end();
+}

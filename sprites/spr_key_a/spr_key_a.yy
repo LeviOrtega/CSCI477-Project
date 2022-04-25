@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_key_a","path":"sprites/spr_key_a/spr_key_a.yy",},
-    "resourceVersion": "1.4",
+    "resourceVersion": "1.3",
     "name": "spr_key_a",
     "tags": [],
     "resourceType": "GMSequence",
