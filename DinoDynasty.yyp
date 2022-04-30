@@ -105,13 +105,13 @@
   },
   "RoomOrderNodes": [
     {"roomId":{"name":"rm_menu","path":"rooms/rm_menu/rm_menu.yy",},},
-    {"roomId":{"name":"rm_herb_boss","path":"rooms/rm_herb_boss/rm_herb_boss.yy",},},
     {"roomId":{"name":"rm_start","path":"rooms/rm_start/rm_start.yy",},},
     {"roomId":{"name":"rm_herb_1","path":"rooms/rm_herb_1/rm_herb_1.yy",},},
     {"roomId":{"name":"rm_test","path":"rooms/rm_test/rm_test.yy",},},
     {"roomId":{"name":"rm_carn_boss","path":"rooms/rm_carn_boss/rm_carn_boss.yy",},},
     {"roomId":{"name":"rm_1","path":"rooms/rm_1/rm_1.yy",},},
     {"roomId":{"name":"rm_deathscreen","path":"rooms/rm_deathscreen/rm_deathscreen.yy",},},
+    {"roomId":{"name":"rm_herb_boss","path":"rooms/rm_herb_boss/rm_herb_boss.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
