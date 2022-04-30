@@ -28,7 +28,11 @@ if (global.game_state = states.playing) {
 				sprite_index = spr_triceratops_walking;	
 			}
 			
-			
+			if (attack == 0){
+				dest_x = obj_player.x;
+				dest_y = obj_player.y;
+				spd = 1;
+			}
 			
 
 			if (attack == 0 && ready_for_attacking == true){

@@ -40,11 +40,12 @@ function arena_stage_one(){
 	// only set speed and dest if this is the first of this stage run
 	if (stage_runs[0] == 0){
 		center_boss();
-		global.seek_safety = true;
+		
 	
 	}
 	else if (spd == 0){
 			stage++;
+			global.seek_safety = true;
 			
 		
 	}

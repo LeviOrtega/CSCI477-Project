@@ -118,5 +118,8 @@ if evolve {
 
 if (global.player_hp <= 0){
 	room_goto(rm_deathscreen);
+	global.can_damage_player = false;
+	global.seek_safety = false;
+
 	global.game_state = states.gameover;
 }

@@ -3,30 +3,49 @@
 function stampede(){
 	// scream, stun player, call in stampede waves from random directions
 	wave_count = 5;
-	stampede_wave ++;
+	
+	
+	
+	switch(stage) {
+		case 1:
+			show_debug_message("SP Stage 1");
+			if (stage_runs[0] == 0){
+				center_boss();
+				}
+				else if (spd == 0){
+					stage = 2;
+				}
+	
+			stage_runs[0] ++;
+			
+			break;
+		case 2:
+			
+			show_debug_message("SP Stage 2");
+			stamp_on_em();
+			stampede_wave ++;
+			break;
+			
+		
+			
+		default:
+			show_debug_message("SP End");
+			reset_attacks();
+			global.seek_safety = false;
+			break;
+	}
 	
 	if (stampede_wave > wave_count){
-		reset_attacks();
-		global.seek_safety = false;
-		
-		
+		stage = 3;	
 	}
-	else{
-	// generate a diff number between 0-3 to indicate which direction stampede will come from
-	global.seek_safety = true;
-		center_boss()
-		
-		stamp_on_em();
-	
-		
-	}
-	
 	
 	ready_for_attacking = true;	
 }
 
+
 function stamp_on_em(){
 	
+	global.seek_safety = true;
 	
 	
 stampede_dir = irandom(3);
@@ -70,3 +89,4 @@ stampede_dir = irandom(3);
 		}
 	}	
 }
+
