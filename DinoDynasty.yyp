@@ -57,6 +57,7 @@
     {"id":{"name":"spr_dodo_walking","path":"sprites/spr_dodo_walking/spr_dodo_walking.yy",},"order":6,},
     {"id":{"name":"spr_key_w","path":"sprites/spr_key_w/spr_key_w.yy",},"order":0,},
     {"id":{"name":"obj_warp","path":"objects/obj_warp/obj_warp.yy",},"order":1,},
+    {"id":{"name":"obj_health_pack","path":"objects/obj_health_pack/obj_health_pack.yy",},"order":14,},
     {"id":{"name":"obj_solid","path":"objects/obj_solid/obj_solid.yy",},"order":6,},
     {"id":{"name":"spr_key_a","path":"sprites/spr_key_a/spr_key_a.yy",},"order":1,},
     {"id":{"name":"spr_velociraptor_bite","path":"sprites/spr_velociraptor_bite/spr_velociraptor_bite.yy",},"order":9,},
@@ -111,6 +112,7 @@
     {"roomId":{"name":"rm_carn_boss","path":"rooms/rm_carn_boss/rm_carn_boss.yy",},},
     {"roomId":{"name":"rm_1","path":"rooms/rm_1/rm_1.yy",},},
     {"roomId":{"name":"rm_deathscreen","path":"rooms/rm_deathscreen/rm_deathscreen.yy",},},
+    {"roomId":{"name":"rm_herb_boss","path":"rooms/rm_herb_boss/rm_herb_boss.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
