@@ -7,12 +7,17 @@ function stampede(){
 	
 	if (stampede_wave > wave_count){
 		reset_attacks();
+		global.seek_safety = false;
+		
 		
 	}
 	else{
 	// generate a diff number between 0-3 to indicate which direction stampede will come from
+	global.seek_safety = true;
 		center_boss()
+		
 		stamp_on_em();
+	
 		
 	}
 	
