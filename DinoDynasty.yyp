@@ -57,6 +57,7 @@
     {"id":{"name":"spr_dodo_walking","path":"sprites/spr_dodo_walking/spr_dodo_walking.yy",},"order":6,},
     {"id":{"name":"spr_key_w","path":"sprites/spr_key_w/spr_key_w.yy",},"order":0,},
     {"id":{"name":"obj_warp","path":"objects/obj_warp/obj_warp.yy",},"order":1,},
+    {"id":{"name":"obj_health_pack","path":"objects/obj_health_pack/obj_health_pack.yy",},"order":14,},
     {"id":{"name":"obj_solid","path":"objects/obj_solid/obj_solid.yy",},"order":6,},
     {"id":{"name":"spr_key_a","path":"sprites/spr_key_a/spr_key_a.yy",},"order":1,},
     {"id":{"name":"spr_velociraptor_bite","path":"sprites/spr_velociraptor_bite/spr_velociraptor_bite.yy",},"order":9,},
@@ -146,7 +147,7 @@
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2022.3.0.625",
+    "IDEVersion": "2022.3.0.624",
   },
   "resourceVersion": "1.5",
   "name": "DinoDynasty",
