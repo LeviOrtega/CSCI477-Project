@@ -34,4 +34,6 @@ future_time = 0;
 
 form_id = 2;
 
+collided_player = false;
+
 
