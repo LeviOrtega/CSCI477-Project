@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_dmg","path":"sprites/spr_dmg/spr_dmg.yy",},
-    "resourceVersion": "1.4",
+    "resourceVersion": "1.3",
     "name": "spr_dmg",
     "tags": [],
     "resourceType": "GMSequence",
