@@ -19,7 +19,7 @@ image_yscale *= 2.5;
 ready_for_attacking = true;
 
 // specifies which attack boss is on
-attack = 3;
+attack = 0;
 
 // stage of attack
 stage = 1;

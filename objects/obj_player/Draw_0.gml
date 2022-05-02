@@ -61,4 +61,3 @@ switch (state) {
 		gpu_set_blendmode(bm_normal);
 		break;
 }
-

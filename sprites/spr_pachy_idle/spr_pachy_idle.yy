@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_pachy_idle","path":"sprites/spr_pachy_idle/spr_pachy_idle.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_pachy_idle",
     "tags": [],
     "resourceType": "GMSequence",

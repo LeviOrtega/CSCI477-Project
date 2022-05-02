@@ -67,7 +67,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_velociraptor_bite","path":"sprites/spr_velociraptor_bite/spr_velociraptor_bite.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_velociraptor_bite",
     "tags": [],
     "resourceType": "GMSequence",

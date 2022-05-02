@@ -75,7 +75,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_pachy_walking","path":"sprites/spr_pachy_walking/spr_pachy_walking.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_pachy_walking",
     "tags": [],
     "resourceType": "GMSequence",
