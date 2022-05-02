@@ -71,7 +71,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_triceratops_stomp","path":"sprites/spr_triceratops_stomp/spr_triceratops_stomp.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_triceratops_stomp",
     "tags": [],
     "resourceType": "GMSequence",

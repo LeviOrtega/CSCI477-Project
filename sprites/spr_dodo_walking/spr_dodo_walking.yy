@@ -75,7 +75,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_dodo_walking","path":"sprites/spr_dodo_walking/spr_dodo_walking.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_dodo_walking",
     "tags": [],
     "resourceType": "GMSequence",

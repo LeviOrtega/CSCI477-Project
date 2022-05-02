@@ -7,7 +7,7 @@ been_stunned = false;
 
 dest_x = x;
 dest_y = y;
-hp = 20;
+hp = 10;
 
 image_xscale *= 2.5;
 image_yscale *= 2.5;
@@ -19,7 +19,7 @@ image_yscale *= 2.5;
 ready_for_attacking = true;
 
 // specifies which attack boss is on
-attack = 0;
+attack = 3;
 
 // stage of attack
 stage = 1;
@@ -33,5 +33,7 @@ stage_runs = [0,0,0];
 future_time = 0;
 
 form_id = 2;
+
+collided_player = false;
 
 

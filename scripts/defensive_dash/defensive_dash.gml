@@ -63,6 +63,7 @@ function defensive_stage_two(){
 	
 		}
 	else if (spd == 0){
+			stunned = true;
 			stage++;
 			
 		

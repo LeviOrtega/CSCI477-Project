@@ -19,6 +19,7 @@ function arena_stomp(){
 			
 		default:
 			show_debug_message("AS End");
+			
 			reset_attacks();
 			break;
 			
@@ -39,10 +40,12 @@ function arena_stage_one(){
 	// only set speed and dest if this is the first of this stage run
 	if (stage_runs[0] == 0){
 		center_boss();
+		
 	
 	}
 	else if (spd == 0){
 			stage++;
+			global.seek_safety = true;
 			
 		
 	}
@@ -66,6 +69,7 @@ function arena_stage_two(){
 	
 	if (current_time >= future_time){
 		global.can_damage_player = false;
+		global.seek_safety = false;
 		show_debug_message("Finished Waiting")
 		stage++;
 	}

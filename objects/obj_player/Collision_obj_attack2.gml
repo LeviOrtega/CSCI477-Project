@@ -3,7 +3,7 @@
 
 global.player_hp -= 1;
 
-knockback = 15;
+knockback = 30;
 
 var _dir = point_direction(x, y, other.x, other.y);
 

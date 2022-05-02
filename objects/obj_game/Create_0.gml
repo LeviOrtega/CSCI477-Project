@@ -12,3 +12,5 @@ enum entity_states {
 global.mp_grid = 0;
 global.player_hp = 5;
 global.player_maxhp = 5;
+global.triceratops_hp = 10;
+global.triceratops_maxhp = 10;

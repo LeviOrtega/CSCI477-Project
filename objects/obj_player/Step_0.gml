@@ -1,5 +1,5 @@
 /// @description Movement
-
+if (global.game_state == states.playing) {
 switch(state) {
 	case "evolving":
 		//form = (form == 1) ? 0 : 1;
@@ -41,6 +41,7 @@ switch(state) {
 		check_attack();
 		anim();
 		break;
+}
 }
 
 
@@ -113,4 +114,12 @@ if evolve {
 			sprite_index = spr_triceratops_idle;
 			break;
 	}
+}
+
+if (global.player_hp <= 0){
+	room_goto(rm_deathscreen);
+	global.can_damage_player = false;
+	global.seek_safety = false;
+
+	global.game_state = states.gameover;
 }
