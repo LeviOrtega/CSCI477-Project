@@ -32,10 +32,12 @@ function check_for_player(){
 function enemy_anim(){
 	switch(state) {
 		case entity_states.IDLE:
-			sprite_index = spr_basic_dino_idle;
+			//sprite_index = spr_basic_dino_idle;
+			sprite_index = spr_idle;
 			break;
 		case entity_states.MOVE:
-			sprite_index = spr_basic_dino_walking;
+			//sprite_index = spr_basic_dino_walking;
+			sprite_index = spr_walk;
 			break;
 		case entity_states.ATTACK:
 		

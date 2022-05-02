@@ -67,7 +67,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_dodo_peck","path":"sprites/spr_dodo_peck/spr_dodo_peck.yy",},
-    "resourceVersion": "1.4",
+    "resourceVersion": "1.3",
     "name": "spr_dodo_peck",
     "tags": [],
     "resourceType": "GMSequence",

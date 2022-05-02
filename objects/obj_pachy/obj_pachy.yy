@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_basic_dino_walking",
-    "path": "sprites/spr_basic_dino_walking/spr_basic_dino_walking.yy",
+    "name": "spr_pachy_idle",
+    "path": "sprites/spr_pachy_idle/spr_pachy_idle.yy",
   },
   "solid": false,
   "visible": true,

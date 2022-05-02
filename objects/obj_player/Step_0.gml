@@ -4,24 +4,6 @@ switch(state) {
 	case "evolving":
 		//form = (form == 1) ? 0 : 1;
 		if (!transforming){
-			//if (form == 0){
-			//	show_debug_message("form = 1");
-			//	form = 1;
-			//	transforming = true;
-			//	break;
-			//}
-			//else if (form == 1){
-			//	form = 2;
-			//	show_debug_message("form = 2");
-			//	transforming = true;
-			//	break;
-			//}
-			//else if (form == 2){
-			//	form = 0;
-			//	show_debug_message("form = 0");
-			//	transforming = true;
-			//	break;
-			//}
 			if (form < array_length(global.forms) - 1 and global.forms[form + 1] != 0){
 				form++;
 				transforming = true;
@@ -111,6 +93,9 @@ if evolve {
 			sprite_index = spr_basic_dino;
 			break;
 		case 2:
+			sprite_index = spr_pachy_idle;
+			break;
+		case 3:
 			sprite_index = spr_triceratops_idle;
 			break;
 	}
